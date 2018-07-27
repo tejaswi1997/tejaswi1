@@ -13,8 +13,8 @@ class Ideone
 		char c;
 		c=s.next().charAt(0);
 		if((c>='a' && c <='z')||(c >='A' && c <='Z'))
-		System.out.println(c +"Alaphabet.");
+		System.out.println("Alphabet");
 		else
-		System.out.println(c +"not an Alaphabet.");
+		System.out.println(c"No");
 	}
 }
