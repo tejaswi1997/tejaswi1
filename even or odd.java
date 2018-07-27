@@ -10,20 +10,20 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 	Scanner s=new Scanner(System.in);
-	System.out.println("Enter a number");
+	
 	int num=s.nextInt();
 	if(num>0)
 	{
 		if(num%2==0)
 		{
-			System.out.println("Given number is Even");
+			System.out.println(" Even");
 		}
-		else
-		System.out.println("Given number is odd");
+		else if(num%2!=0)
+		System.out.println("Odd");
 	}
 	else
 	{
-		System.out.println("invalid output");
+		System.out.println("invalid");
 	}
 		}
 		
